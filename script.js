@@ -127,7 +127,14 @@ function jogo(cardIndex) {
     }
     if (matched.length == 10){
         setTimeout(() => {
-            console.log('O jogo acabou!')
+            table = document.getElementById('tabela')
+            table.style.display = 'none'
+
+            endgame = document.getElementById('fimdojogo')
+            endgame.style.display = 'block'
         }, 500) 
     }
+}
+function end(){
+    history.go(0)
 }

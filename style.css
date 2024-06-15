@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-image: url(img/img.webp);
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
@@ -99,5 +100,46 @@ td:hover {
     backdrop-filter: blur(5px);
     border: 1px white solid;
     border-radius: 10px;
+    transition: 0.5s;
+}
+
+#fimdojogo{
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+    background-color: #7a7a7aee;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fade-in 1s forwards;
+}
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#fimdojogo h1{
+    color: rgb(0, 255, 0);
+    margin-top: 15%;
+}
+#fimdojogo input {
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    width: 200px;
+    height: 35px;
+}
+#fimdojogo input:hover{
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+    opacity: 0.7;
+    backdrop-filter: blur(2px);
     transition: 0.5s;
 }
