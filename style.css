@@ -103,7 +103,7 @@ td:hover {
     transition: 0.5s;
 }
 
-#fimdojogo{
+#fimdojogo {
     border-radius: 10px;
     width: 500px;
     height: 250px;
@@ -116,18 +116,22 @@ td:hover {
     text-align: center;
     animation: fade-in 1s forwards;
 }
-@keyframes fade-in{
+
+@keyframes fade-in {
     0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
-#fimdojogo h1{
+
+#fimdojogo h1 {
     color: rgb(0, 255, 0);
     margin-top: 15%;
 }
+
 #fimdojogo input {
     border-radius: 5px;
     margin-left: 5px;
@@ -135,11 +139,209 @@ td:hover {
     width: 200px;
     height: 35px;
 }
-#fimdojogo input:hover{
+
+#fimdojogo input:hover {
     width: 250px;
     height: 40px;
     font-weight: bold;
     opacity: 0.7;
     backdrop-filter: blur(2px);
     transition: 0.5s;
+}
+
+@media screen and (max-width: 830px) {
+    body {
+        background-size: auto;
+    }
+
+    table {
+        width: 700px;
+        border-spacing: 0;
+    }
+
+    td img {
+        transition: 0.5s;
+        height: 200px;
+        width: 100px;
+    }
+
+    #comeco {
+        width: 350px;
+        margin-top: 275px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    body {
+        background-size: auto;
+    }
+
+    table {
+        transition: 0.5s;
+        width: 650px;
+        border-spacing: 0;
+    }
+
+    td img {
+        height: 200px;
+        width: 100px;
+    }
+
+    #comeco {
+        width: 350px;
+        margin-top: 275px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background-size: auto;
+    }
+
+    table {
+        width: 500px;
+        border-spacing: 0;
+    }
+
+    td img {
+        transition: 0.5s;
+        height: 200px;
+        width: 80px;
+    }
+
+    #comeco {
+        width: 350px;
+        margin-top: 275px;
+    }
+
+    #fimdojogo {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    table {
+        width: 350px;
+        border-spacing: 0;
+    }
+
+    td img {
+        transition: 0.5s;
+        height: 200px;
+        width: 80px;
+    }
+
+    #comeco {
+        width: 350px;
+        margin-top: 275px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body {
+        background-size: auto;
+    }
+
+    table {
+        width: 250px;
+        border-spacing: 0;
+    }
+
+    td img {
+        transition: 0.5s;
+        height: 200px;
+        width: 50px;
+    }
+
+    #comeco {
+        width: 350px;
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    body {
+        background-size: auto;
+    }
+
+    table {
+        width: 250px;
+        height: 350px;
+        border-spacing: 0;
+    }
+
+    td {
+        height: 150px;
+        padding: 2px;
+    }
+
+    td img {
+        transition: 0.5s;
+        height: 220px;
+        width: 50px;
+    }
+
+    #comeco {
+        width: 290px;
+        margin-top: 255px;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    body {
+        background-size: auto;
+    }
+
+    table {
+        width: 300px;
+        height: 350px;
+        border-spacing: 0;
+    }
+
+    td {
+        height: 150px;
+        padding: 2px;
+    }
+
+    td img {
+        transition: 0.5s;
+        height: 150px;
+        width: 50px;
+    }
+
+    #comeco {
+        width: 300px;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    body {
+        transition: 0.5s;
+        background-size: auto;
+    }
+
+    table {
+        width: 350px;
+        height: 100px;
+        border-spacing: 0;
+    }
+
+    td {
+        transition: 0.5s;
+        height: 100px;
+        padding: 2px;
+    }
+
+    td img {
+        transition: 0.5s;
+        height: 100px;
+        width: 50px;
+    }
+
+    #comeco {
+        flex-direction: column;
+        width: 350px;
+        margin-top: 135px;
+    }
 }
